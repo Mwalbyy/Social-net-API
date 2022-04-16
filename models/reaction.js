@@ -21,9 +21,9 @@ const reactionSchema = new Schema(
     createdAt: {
       type: Date,
       default: Date.now,
-      get: function (time) {
-        formatTimeStamp(time);
-      },
+      // get: function (time) {
+      //   formatTimeStamp(time);
+      // },
     },
   },
   {

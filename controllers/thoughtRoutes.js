@@ -74,7 +74,7 @@ module.exports = {
               .status(404)
               .json({
                 message:
-                  "Thought created, but there are no users with that ID.",
+                  "Thought successfully deleted.",
               })
           : res.json({ message: "Thought successfully deleted." })
       )
